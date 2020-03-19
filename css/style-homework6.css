@@ -1,0 +1,173 @@
+.clearfix:after{
+	content:'';
+	display:table;
+	clear:both;
+}
+.wrap
+{
+	margin:50px auto 0 auto;
+	background-color: #afe1f8;
+	width: 1000px;
+	height: 600px;
+}
+.wrap h1
+{
+	margin-left:50px;
+	margin-top: 10%;
+	float: left;
+	writing-mode: vertical-lr;
+	font-size: 100px;
+	font-family: Arial;
+	color: #5b666b;
+}
+.wrap h2
+{
+	margin-left:5px;
+	margin-top: 10%;
+	float: left;
+	padding-top: 10px;	 
+	writing-mode: vertical-rl;
+	font-size: 32px;
+	font-family: Arial;
+	letter-spacing: 20px;
+	color: #5b666b;
+}
+.card
+{
+	margin-left:50px;
+	margin-top: 10%;
+	float: left;
+	width: 500px;
+	height: 300px;
+	background-color: white;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	box-shadow: 10px 10px 10px -5px gray; 	
+ }
+.card-body
+{
+	position: relative;
+	padding: 20px;
+	overflow: hidden;
+}
+.card-body img
+{
+	margin-bottom: 20px;
+}
+.job
+{
+	height: 50px;
+	margin-bottom: 10px;
+	font-family: Arial;
+	font-weight: bold;
+	color: #18a9ec;
+}
+.job b
+{
+	position:relative; 
+	font-size: 24px;
+	
+}
+.job span
+{
+	position:absolute; 
+	font-size: 20px;
+	bottom: -2px;
+	margin-left: 15px;
+}
+.name
+{
+	height: 50px;
+	font-size: 40px;
+	font-family: Arial;
+	font-weight: bold;	
+	padding-left:30%;
+	color: #0786c0;
+	margin-bottom: 10px;
+}
+.contact li
+{
+	font-size: 18px;
+	font-family: Arial;
+	font-weight: bold;
+	color: #18a9ec;
+	margin-bottom: 3px;
+}
+.card-body .shap
+{ 
+	position: absolute;
+	top:0px;
+	right: 0px;
+}
+.card-body .shap .decorate1{
+	position:relative;
+	width:80px;
+	height:0;
+	border-width:0 40px 70px;
+	border-style:solid;
+	border-color:transparent transparent #238dbe;
+	right: 0px;
+	left: 80px;
+}
+
+.card-body .shap .decorate1:before {
+	position:absolute;
+	content:"";
+	top:70px;
+    left:-40px;
+    width:80px;
+    height:0;
+    background:none;
+    border-width:70px 40px 0;
+	border-style:solid;    
+	border-color:#238dbe transparent transparent;  
+}
+.card-body .shap .decorate2{
+	position:relative;
+	width:50px;
+    height:0;
+    border-width:0 32px 50px;
+     border-style:solid;
+	border-color:transparent transparent #57b5e0;
+	top:28px;
+	right: 0px;
+	left: 5px;
+}
+
+.card-body .shap .decorate2:before {
+	position:absolute;
+	content:"";
+	 top:50px;
+    left:-32px;
+    width:50px;
+    height:0;
+    background:none;
+    border-width:50px 32px 0;
+	border-style:solid;    
+	border-color:#57b5e0 transparent transparent;  
+}
+.card-body .shap .decorate3{
+	position:relative;
+	width:80px;
+	height:0;
+	border-width:0 40px 70px;
+	border-style:solid;
+	border-color:transparent transparent #6bc9f5;
+	right: 0px;
+	left: 82px;
+	top:28px;
+}
+
+.card-body .shap .decorate3:before {
+	position:absolute;
+	content:"";
+	top:70px;
+    left:-40px;
+    width:80px;
+    height:0;
+    background:none;
+    border-width:70px 40px 0;
+	border-style:solid;    
+	border-color:#6bc9f5 transparent transparent;  
+}
