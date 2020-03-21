@@ -1,0 +1,122 @@
+.wrap
+{
+	width: 1283px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	font-family: 微軟正黑體;
+	font-weight: bold;
+}
+.content-small,.content-middle,.content-big
+{
+	width: 100%;
+	background-color:  #e7eeea;
+	border-radius: 5px;
+	margin-bottom: 45px;
+}
+.content-small ul
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+.content-small ul li
+{
+	width: 33.33%;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	-moz-box-sizing: border-box; /* Firefox */
+	-webkit-box-sizing: border-box;/* Safari */
+	box-sizing: border-box;
+	padding: 29px;
+}
+.content-small ul li img
+{
+	width: 53px;
+	height: 53px;
+	margin-right: 13px;
+}
+.content-small ul li h2,.content-middle ul li h2,.content-big ul li h2
+{
+	font-size: 16px;
+	font-weight: bolder;
+	color:  #37523d;
+	margin-top: 15px;
+	margin-bottom: 24px;
+}
+.content-small ul li p,.content-middle ul li p,.content-big ul li p
+{
+	font-size: 14px;
+	color:  #405a46;
+	line-height: 22px;
+}
+.content-middle ul
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+.content-middle ul li
+{
+	width: 33.33%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	text-align: center;	
+	-moz-box-sizing: border-box; /* Firefox */
+	-webkit-box-sizing: border-box;/* Safari */
+	box-sizing: border-box;
+	padding:29px;
+}
+.content-middle ul li img
+{
+	width: 92px;
+	height: 92px;
+}
+
+.content-big ul
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	
+}
+.content-big-row1
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	flex-wrap: nowrap;
+	align-items: center;
+	padding:29px;
+
+}
+.content-big-row2
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	flex-wrap: nowrap;
+	align-items: center;
+	padding:29px;
+}
+.content-big ul li img
+{
+	width: 139px;
+	height: 139px;
+	padding-right: 13px;
+	padding-left: 13px;	
+}
+.content-big-image
+{
+	width: 20%;
+}
+.content-big-div
+{
+	width: 80%;
+}
+

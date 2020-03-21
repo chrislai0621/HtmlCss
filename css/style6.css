@@ -1,0 +1,95 @@
+body
+{
+	background-color: #37523d;
+}
+.wrap
+{
+	width: 880px;
+	height: 470px;
+	background-color: white;
+	margin: 0 auto;
+	margin-top: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	font-family: 微軟正黑體;
+	font-weight: bold;
+	border-radius: 5px 5px 0 0;
+}
+.header
+{
+	width: 100%;
+	padding-left: 30px;
+	padding-right: 30px;
+	background-color: #e7eeea;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;	
+	-moz-box-sizing: border-box; /* Firefox */
+	-webkit-box-sizing: border-box;/* Safari */
+	box-sizing: border-box;
+	border-radius: 5px 5px 0 0;
+}
+.content
+{
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	display: flex;
+	flex-direction: row;	
+	-moz-box-sizing: border-box; /* Firefox */
+	-webkit-box-sizing: border-box;/* Safari */
+	box-sizing: border-box;
+}
+.header a
+{
+	color: #37523d;
+	font-weight: bold;
+	text-decoration: none;
+}
+.header a:hover
+{
+	color: gray;
+	font-weight: bold;
+}
+.content img
+{
+	margin-right: 55px;
+}
+.content div
+{
+	margin-top: 25px;
+	position: relative;
+}
+.content h2
+{
+	font-size: 22px;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+.content p
+{
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 24px;
+}
+.content div ul
+{
+	display: flex;
+	flex-direction: row;
+	position: absolute;
+	bottom: 0;
+}
+.content div ul li a
+{
+	margin-right: 10px;
+	font-size: 22px;
+	color: #37523d;
+}
+.content div ul li a:hover
+{
+	background-color: #acd2fe;
+}

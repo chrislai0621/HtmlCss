@@ -1,0 +1,90 @@
+.wrap
+{
+	width: 300px;
+	margin: 0 auto;
+	margin-top: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	font-family: 微軟正黑體;
+	font-weight: bold;
+}
+.order,.cart
+{
+	width: 100%;	
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	color: #829886;
+	border: 1px solid #e7eeea;
+	margin-bottom: 16px;
+	padding-bottom: 20px;
+
+}
+.order h2,.cart h2
+{
+	display: block;
+	width: 100%;
+	background-color: #e7eeea;
+	font-size: 24px;
+	padding-top: 23px;
+	padding-bottom: 26px;
+	text-align: center;
+}
+.order ul ,.cart div
+{
+	width: 100%;
+	padding-left: 20px;
+	padding-right: 20px;	
+	-moz-box-sizing: border-box; /* Firefox */
+	-webkit-box-sizing: border-box;/* Safari */
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.order ul li span
+{
+	margin-left: 8px;
+}
+.order .amount
+{
+	padding-top: 20px;
+	font-size: 16px;
+	margin-bottom: 21px;
+}	
+.order .shipping-fee
+{
+	font-size: 16px;
+	margin-bottom: 27px;
+}
+.order .total-amount
+{
+	font-size: 22px;
+}
+.cart div
+{
+	margin-top: 18px;
+}	
+.cart div img
+{
+	width: 120px;
+	margin-right: 18px;
+}
+.cart div ul
+{
+	width: 100%;
+}
+.cart div ul li
+{
+	font-size: 16px;
+	line-height: 28px;
+}
+.cart div ul .product-price
+{
+	font-size: 18px;
+	font-weight: bolder;
+}
