@@ -30,6 +30,11 @@
 }
 .content-left ul li a
 {
+	display: block;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 	font-size: 22px;
 	color: #617766;
 	font-weight: bold;

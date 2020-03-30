@@ -45,7 +45,6 @@ box-shadow:x軸，y軸，擴散值，陰影顏色
 	padding-left: 48px;
 	background-color: #37523d;
 	display: flex;
-	flex-direction: row;
 	justify-content: center;
 	align-items: center;	
 	-moz-box-sizing: border-box; /* Firefox */
@@ -55,8 +54,6 @@ box-shadow:x軸，y軸，擴散值，陰影顏色
 .header ul
 {
 	display: flex;
-	flex-direction: row;
-	
 }
 .header ul li a
 {
@@ -87,7 +84,6 @@ box-shadow:x軸，y軸，擴散值，陰影顏色
 .footer ul
 {
 	display: flex;
-	flex-direction: row;
 	
 }
 .footer ul li a

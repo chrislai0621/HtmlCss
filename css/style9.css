@@ -13,10 +13,6 @@
 .order,.cart
 {
 	width: 100%;	
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
-	align-items: center;
 	color: #829886;
 	border: 1px solid #e7eeea;
 	margin-bottom: 16px;
