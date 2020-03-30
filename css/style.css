@@ -42,8 +42,6 @@
 }
 .banner
 {
-	width: 100%;
-	height: 50px;
 	padding-top: 10px;
 	margin-bottom: 5px;
 	display: flex;
@@ -85,20 +83,14 @@
 }
 .bg
 {
-    width: 1200px;
     height: 347px;   
 	background: url(../images/bg.png) no-repeat #222222 right bottom;
-}
-
-.bg  ul
-{
- 	padding-left: 30px;
- 	height: 100%;
 	display:flex;
 	flex-direction: column;
-    justify-content:center;
+	justify-content:center;
+	padding-left: 30px;
 }
-.bg  ul li
+.bg  h2
 {
  	margin-bottom: 20px;
  	font-size: 36pt;
@@ -234,14 +226,19 @@
 }
 .contact .contact-left
 {
-	width: 580px;
+	width: 50%;
 	margin-top: 30px;
 }
+.contact .contact-left textarea
+{
+  width: 95%;
+  height: 90%;
+}
+
 .contact .contact-right
 {
-	width: 580px;
+	width: 50%;
 	margin-top: 30px;
-	position:relative;
 }
 .contact-right label
 {
@@ -257,7 +254,6 @@
 }
 .contact-right .btn-submit
 {
-	position: absolute;
 	margin-top: 10px;
 	right:0px;	
 	width: 100px;
@@ -267,6 +263,7 @@
 	border: 0px;
 	padding: 5px;
 	border-radius: 5px;
+	float: right;
 }
 .contact-right .btn-submit:hover
 {
@@ -281,7 +278,7 @@
 	justify-content: space-between;
 }
 
-.footer .logo h1 a
+.footer .logo h2 a
 {
 	width: 171px;
 	height: 36px;
