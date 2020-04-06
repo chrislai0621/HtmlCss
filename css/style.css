@@ -76,10 +76,11 @@
 	font-weight: bold;
 	text-decoration: none;  
   	display: block;
+  	border-bottom: 3px solid transparent;
 }
 .banner ul li a:hover
 {
-	 border-bottom: 3px solid #00cc99;
+	 border-bottom-color: #00cc99;
 }
 .bg
 {
